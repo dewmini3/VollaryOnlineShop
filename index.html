@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive E-commerce website</title>
+
+    <!--link to CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--box Icons-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--swiper css link-->
+    <link 
+    rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+   <!--Navbar-->
+   <header>
+     <a href="#" class="logo"><i class='bx bxl-vuejs'></i> Vallory </a>
+  
+   <ul class="navbar">
+     <li><a href="#home">Home</a></li>
+     <li><a href="#new">New Arrival</a></li>
+     <li><a href="#products">Products</a></li>
+     <li><a href="#reviews">Reviews</a></li>
+   </ul>
+    <!--Icons-->
+     <div class="header-icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-search-alt-2' id="search-icon"></i>
+        <i class='bx bx-cart-alt' id="cart-icon" ></i>
+        <i class='bx bx-user' id="user-icon"></i>
+     </div>
+     <!--Serach Box-->
+       <div class="search-box">
+         <input type="search" name="" id="" placeholder="search Here...">
+       </div>
+
+       <!--Cart Box-->
+       <div class="cart">
+        <!--Box 1-->
+        <div class="box">
+          <img src="images/new1.jpg" alt="">
+          <div class="text">
+            <h3>Slipper-Size36</h3>
+            <span>$30.05</span>
+            <span>×1</span>
+          </div>
+          <i class='bx bxs-trash-alt' ></i>
+    </div>
+
+        <!--Box 2-->  
+        <div class="box">
+            <img src="images/new2.jpg" alt="">
+            <div class="text">
+              <h3>Chain Decor-Size36</h3>
+              <span>$50.05</span>
+              <span>×1</span>
+            </div>
+            <i class='bx bxs-trash-alt' ></i>
+          </div>
+          <h2>Total: $80.10</h1>
+            <a href="#" class="btn">Checkout</a>  
+       </div>
+       <!--User-->
+       <div class="user">
+   <h2>Login Now</h2>
+   <input type="email" placeholder="Your Email....">
+   <input type="password" name="" id="" placeholder="Password">
+   <input type="submit" value="Login" class="login-btn">
+   <p>Forget Password <a href="#">Reset Now</a></p>
+   <p>Don't have account <a href="#">Create One</a></p>
+       </div>
+   </header>
+   <!--Home-->
+     <section class="home"  id="home">
+        <div class="home-text">
+            <span>Shop Now</span>
+            <h1>New Arrival of <br>Latest Products</h1>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+          <div class="home-img">
+            <img src="images/home.jpg" alt="">
+          </div>
+     </section>
+     <!--New Arrival-->
+      <section class="new" id="new">
+         <div class="heading">
+            <h1>New <span>Arrival</span></h1>
+         </div>
+         <div class="swiper new-arrival">
+         <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+            <img src="images/new1.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+     </div>  
+       <div class="swiper-slide box">
+        <img src="images/new2.jpg" alt="">
+        <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="images/new3.jpg" alt="">
+        <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+      </div>
+         <div class="swiper-slide box">
+        <img src="images/new4.jpg" alt="">
+        <div class="content">
+         <a href="#" class="btn">Buy Now</a>
+    </div>
+    </div>
+    <div class="swiper-slide box">
+        <img src="images/new5.jpg" alt="">
+        <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+     </div>
+     <div class="swiper-slide box">
+        <img src="images/new6.jpg" alt="">
+        <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+     </div>
+    </div>
+   </div>
+ </section>
+ <!--Product-->
+   <section class="products" id="products">
+   <div class="heading">
+    <h1>Our <span>Products</span></h1>
+ </div>
+ <div class="product-container">
+    <div class="box">
+        <img src="images/p1.png" alt="">
+        <div class="content">
+            <h2>Open toe Heels</h2>
+
+            <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <span>$64.05</span>
+            <i class='bx bx-cart-alt' ></i>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/p2.png" alt="">
+        <div class="content">
+            <h2>Classy Sandle</h2>
+
+            <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <span>$28.05</span>
+            <i class='bx bx-cart-alt' ></i>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/p3.png" alt="">
+        <div class="content">
+            <h2>Chunky Heels</h2>
+
+            <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <span>$55.05</span>
+            <i class='bx bx-cart-alt' ></i>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/p4.png" alt="">
+        <div class="content">
+            <h2>Chunky Box Heels</h2>
+
+            <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <span>$50.05</span>
+            <i class='bx bx-cart-alt' ></i>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/p5.png" alt="">
+        <div class="content">
+            <h2>Classy Sandle</h2>
+
+            <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <span>$28.50</span>
+            <i class='bx bx-cart-alt' ></i>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/p6.png" alt="">
+        <div class="content">
+            <h2>Flat Sandle</h2>
+
+            <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <span>$20.05</span>
+            <i class='bx bx-cart-alt' ></i>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/p7.png" alt="">
+        <div class="content">
+            <h2>Mid Heel Shoe</h2>
+
+            <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <span>$35.05</span>
+            <i class='bx bx-cart-alt' ></i>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/p8.png" alt="">
+        <div class="content">
+            <h2>Cinderella Shoe</h2>
+
+            <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <span>$75.05</span>
+            <i class='bx bx-cart-alt' ></i>
+        </div>
+    </div>
+ </div>
+</section>
+     <!--reviews-->
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <h1>Our <span>Customer's</span></h1>
+         </div>
+         <div class="reviews-container">
+             <div class="box">
+               <img src="images/r1.jpg" alt=""> 
+               <div class="stars">
+                <i class='bx bxs-star' ></i> 
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>"These shoes are incredibly comfortable and stylish! The design is sleek, and they fit perfectly</p>
+            <p>. I can wear them all day without any discomfort. Highly recommended!</p>
+            <h2>Emily R.</h2>
+    </div>
+             <div class="box">
+                <img src="images/r2.jpg" alt=""> 
+                <div class="stars">
+                 <i class='bx bxs-star' ></i> 
+                 <i class='bx bxs-star' ></i>
+                 <i class='bx bxs-star' ></i>
+                 <i class='bx bxs-star' ></i>
+                 <i class='bx bxs-star-half' ></i>
+             </div>
+             <p>"Great Shoes, Slightly Tight Fit"</p>            
+              <h2> Sophia M.</h2>
+     </div>
+              <div class="box">
+                <img src="images/r3.jpg" alt=""> 
+                <div class="stars">
+                 <i class='bx bxs-star' ></i> 
+                 <i class='bx bxs-star' ></i>
+                 <i class='bx bxs-star' ></i>
+                 <i class='bx bxs-star' ></i>
+                 <i class='bx bxs-star-half' ></i>
+             </div>
+             <p> Best Shoes for Everyday Wear. Good Value For Money</p>            
+              <h2>Olivia T.</h2>
+              </div>
+         </div>
+    </section>
+       <!--footer-->
+         <section class="footer">
+            <div class="footer-box">
+                <h2>Vallory </h2>
+                <p>We always try supply Customer needs</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-tiktok' ></i></a>
+         </div>
+    </div>
+            <div class="footer-box">
+             <h3>Support </h3>
+             <li><a href="#">Product</a></li>
+             <li><a href="#">Help & Support</a></li>
+             <li><a href="#">Return Policy</a></li>
+             <li><a href="#">Term of use</a></li>
+             <li><a href="#">FAQ</a></li>
+        </div>
+             <div class="footer-box">
+                <h3>Our Branches</h3>
+                <li><a href="#">Pakistan</a></li>
+                <li><a href="#">japan</a></li>
+                <li><a href="#">India</a></li>
+                <li><a href="#">United States</a></li>
+                <li><a href="#">Canada</a></li>
+             </div>
+         <div class="footer-box">
+                <h3>Payment Method</h3>
+                 <div class="payment">
+                     <img src="images/visa.jpg" alt="">
+                     <img src="images/mastercard.jpg" alt="">
+                     <img src="images/paypal.jpg" alt="">
+                     <img src="images/american-express.jpg" alt="">
+
+                 </div>
+         </div>
+         </section>
+         <!--Copyright-->
+           <div class="copyright">
+            <p>&#169; CarpoolVenom All Right Reserved.</p>
+           </div>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Link to js-->
+    <script src="main.js"></script>
+</body>
+</html>
